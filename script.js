@@ -192,7 +192,7 @@ function loadGallery() {
         galleryItem.className = 'gallery-item';
         
         galleryItem.innerHTML = `
-            <img src="images/${image}" alt="Gallery Image" class="gallery-img">
+            <img src="images/${image}" alt="Gae" class="gallery-img">
         `;
         
         galleryGrid.appendChild(galleryItem);
