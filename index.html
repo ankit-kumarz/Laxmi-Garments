@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxmi Garments - Premium Cloth Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Laxmi Garments</h1>
+                <p>Since 2010</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="home">
+        <div class="banner-slider">
+            <!-- Banner images will be loaded via JS -->
+            <div class="banner-container"></div>
+            <div class="banner-controls">
+                <button class="prev-banner"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-banner"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h2>Premium Quality Garments</h2>
+            <p>Traditional and Western wear for all occasions</p>
+            <a href="#products" class="btn">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="product-categories" id="products">
+        <div class="container">
+            <h2 class="section-title">Our Collections</h2>
+            <div class="categories-grid">
+                <!-- Categories will be loaded via JS from products.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-filter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="saree">Sarees</button>
+                <button class="filter-btn" data-category="kurti">Kurtis</button>
+                <button class="filter-btn" data-category="jeans">Jeans</button>
+                <button class="filter-btn" data-category="shirt">Shirts</button>
+            </div>
+            <div class="products-grid">
+                <!-- Products will be loaded via JS from products.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Custom Tailoring</h3>
+                    <p>Get your garments perfectly stitched to your measurements.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Bulk Orders</h3>
+                    <p>Special discounts for wedding and festival bulk purchases.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Home Delivery</h3>
+                    <p>Convenient delivery service available in our city.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Easy Returns</h3>
+                    <p>7-day return policy for unused items with tags.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Gallery images will be loaded via JS -->
+                <!-- You just need to add images to the images folder with these names -->
+                <!-- gallery1.jpg, gallery2.jpg, etc. up to gallery12.jpg -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Laxmi Garments, Panchayat Bhavan, Parasmani, Purnea - 854306</p>
+                    <p><i class="fas fa-phone"></i> +91 6201563011</p>
+                    <p><i class="fas fa-envelope"></i> info@elegantfashions.com</p>
+                    <p><i class="fas fa-clock"></i> Open: Mon-Sun 08:00 AM - 09:00 PM</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.566447366218!2d77.2319133150824!3d28.61349098242595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9db4d17%3A0x91b6f1b35d5a3f0a!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Laxmi Garments</h3>
+                    <p>Your one-stop shop for premium quality traditional and western garments since 2010.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and offers</p>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Laxmi Garments. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
