@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
     mobileMenuLinks.forEach(link => {
         link.addEventListener('click', function() {
-            mobileMenu.classList.remove('active');
+            mobileMenu.classList.remove('active'); 
         });
     });
     
