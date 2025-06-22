@@ -49,7 +49,7 @@ A sleek, responsive e-commerce website built for **Laxmi Garments**, a premium c
 ├── 📄 product-details.js     → Logic for individual products
 ├── 📄 script.js              → Main JavaScript file
 ├── 📄 style.css              → All styling
-└── 📄 README.md              → Project documentation
+└── 📄 README.md              → Project documentation 
 ```
 
 ---
