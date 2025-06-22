@@ -9,7 +9,7 @@ A sleek, responsive e-commerce website built for **Laxmi Garments**, a premium c
 
 ## 🚀 Live Preview
 
-**🔗** [https://ankit-kumarz.github.io/Laxmi-Garments/]
+**🔗** [https://ankit-kumarz.github.io/Laxmi-Garments/].
 
 ---
 
