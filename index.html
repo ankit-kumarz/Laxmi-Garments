@@ -6,15 +6,16 @@
     <title>Laxmi Garments - Premium Cloth Shop</title> 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header/Navigation --> 
     <header>
         <div class="container">
-            <div class="logo"> 
+            <div class="logo">
                 <h1>Laxmi Garments</h1>
                 <p>Since 2010</p>
-            </div> 
+            </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -46,15 +47,13 @@
         <div class="banner-slider"> 
             <!-- Banner images will be loaded via JS -->
             <div class="banner-container"></div>
-            <div class="banner-controls">
-                <button class="prev-banner"><i class="fas fa-chevron-left"></i></button>
-                <button class="next-banner"><i class="fas fa-chevron-right"></i></button>
-            </div>
         </div>
         <div class="hero-content">
-            <h2>Premium Quality Garments</h2>
-            <p>Traditional and Western wear for all occasions</p>
             <a href="#products" class="btn">Explore Collection</a>
+            <div class="banner-controls">
+                <button class="prev-banner">&lt;</button>
+                <button class="next-banner">&gt;</button>
+            </div>
         </div>
     </section>
 
@@ -63,7 +62,7 @@
         <div class="container">
             <h2 class="section-title">Our Collections</h2>
             <div class="categories-grid">
-                <!-- Categories will be loaded via JS from products.js -->
+                <!-- Categories will be loaded via JS -->
             </div>
         </div>
     </section>
@@ -80,7 +79,24 @@
                 <button class="filter-btn" data-category="shirt">Shirts</button>
             </div>
             <div class="products-grid">
-                <!-- Products will be loaded via JS from products.js -->
+                <!-- Products will be loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Size Guide -->
+    <section class="size-guide-section">
+        <div class="container">
+            <h2 class="section-title">Size Guide</h2>
+            <div class="size-guide-container">image.png
+                <div class="size-guide-tabs">
+                    <button class="size-tab active" data-type="women">Women</button>
+                    <button class="size-tab" data-type="men">Men</button>
+                    <button class="size-tab" data-type="kids">Kids</button>
+                </div>
+                <div class="size-guide-content">
+                    <!-- Size guide content will be loaded via JS -->
+                </div>
             </div>
         </div>
     </section>
@@ -102,13 +118,38 @@
                 <div class="service-card">
                     <i class="fas fa-truck"></i>
                     <h3>Home Delivery</h3>
-                    <p>Convenient delivery service available in our city.</p>
+                    <p>Convenient delivery service available in our village.</p>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-exchange-alt"></i>
                     <h3>Easy Returns</h3>
-                    <p>7-day return policy for unused items with tags.</p>
+                    <p>3-day return policy for unused items with tags.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <h4>Piyush Sharma</h4>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Amazing quality and perfect fit! The custom tailoring service is excellent."</p>
+                </div>
+                <!-- More review cards will be added dynamically -->
             </div>
         </div>
     </section>
@@ -133,19 +174,43 @@
                 <div class="contact-info">
                     <h3>Contact Information</h3>
                     <p><i class="fas fa-map-marker-alt"></i> Laxmi Garments, Panchayat Bhavan, Parasmani, Purnea - 854306</p>
-                    <p><i class="fas fa-phone"></i> +91 6201563011</p>
-                    <p><i class="fas fa-envelope"></i> info@elegantfashions.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9060832518</p>
+                    <p><i class="fas fa-envelope"></i> info.laxmigarments@gmail.com</p>
                     <p><i class="fas fa-clock"></i> Open: Mon-Sun 08:00 AM - 09:00 PM</p>
                     
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100038558585687"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ankit.iox?igsh=OW9iZHhobXp5Z2Vx"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/qr/3YYHDF76R27BG1"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.566447366218!2d77.2319133150824!3d28.61349098242595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9db4d17%3A0x91b6f1b35d5a3f0a!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
-                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.9702000408793!2d87.29747558608221!3d25.82388550738385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39efe7005dc3b69d%3A0x2511739aea7f7292!2sLaxmi%20Garments%20Parasmani!5e1!3m2!1sen!2sin!4v1746595266219!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>🧵 लक्ष्मी गारमेंट्स में आपका हार्दिक स्वागत है</h3>
+                    <p>आपकी एकमात्र पसंद – पारंपरिक और वेस्टर्न उच्च गुणवत्ता वाले वस्त्रों की दुकान, जो 2010 से आपकी सेवा में समर्पित है।
+                        हम पारसमणि के हृदय स्थल पर स्थित हैं, जहाँ पुरुषों, महिलाओं और बच्चों के लिए नवीनतम फैशन ट्रेंड्स उपलब्ध हैं।</p>
+                    <p>🎯 हमारा उद्देश्य
+                        ग्राहकों को किफायती दामों पर बेहतरीन गुणवत्ता के वस्त्र उपलब्ध कराना,
+                        ताकि हर खरीदारी के साथ संतुष्टि की अनुभूति हो।
+                        
+                        👉 हमारी विविध और आकर्षक कलेक्शन को देखने के लिए ज़रूर पधारिए!</p>
+                </div>
+                <div class="owner-info">
+                    <h3>About the Owner</h3>
+                    <p><strong>Name:</strong> Amit Kumar Sah</p>
+                    <p><strong>Education:</strong> BA (Purnea University) and MA (Purnea University)</p>
+                    <p><strong>Motive:</strong> To bring the latest and most fashionable clothing to our community, making style accessible to everyone.</p>
                 </div>
             </div>
         </div>
@@ -170,16 +235,20 @@
                     </ul>
                 </div>
                 <div class="footer-newsletter">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe for updates and offers</p>
-                    <form>
-                        <input type="email" placeholder="Your Email">
-                        <button type="submit">Subscribe</button>
+                    <h3>Get In Touch</h3>
+                    <p>Have a question? Drop us a line!</p>
+                    <form id="footer-contact-form" name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="3" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
                     </form>
+                    <span id="footer-form-msg"></span>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Laxmi Garments. All Rights Reserved.</p>
+                <p>&copy; 2025 Laxmi Garments. All Rights Reserved.</p>
+                <p class="developer-credit">Designed &amp; Developed by Ankit Kumar. <a href="https://ankit-kumarz.github.io/Ankit-s-Portfolio/" target="_blank" rel="noopener noreferrer">Visit my portfolio</a>.</p>
             </div>
         </div>
     </footer>
