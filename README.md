@@ -29,7 +29,7 @@ A sleek, responsive e-commerce website built for **Laxmi Garments**, a premium c
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Folder Structure 
 
 ```
 📦 laxmi-garments-website/
