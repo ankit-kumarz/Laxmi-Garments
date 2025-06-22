@@ -54,7 +54,7 @@ A sleek, responsive e-commerce website built for **Laxmi Garments**, a premium c
 
 ---
 
-## 🌍 Deployment (GitHub Pages)
+## 🌍 Deployment (GitHub Pages) 
 
 1. 📤 Push your code to a GitHub repository
 2. ⚙️ Go to `Settings > Pages`
