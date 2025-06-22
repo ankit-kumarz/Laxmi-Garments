@@ -3,7 +3,7 @@
 A sleek, responsive e-commerce website built for **Laxmi Garments**, a premium clothing brand offering a wide range of **traditional and western wear** for men, women, and kids.
 
 > ✨ Built using **HTML**, **CSS**, and **JavaScript**
-> 🌐 Optimized for **GitHub Pages** and any static hosting platform.
+> 🌐 Optimized for **GitHub Pages** and any static hosting platform. 
 
 ---
 
