@@ -2,7 +2,7 @@
 
 A modern, responsive website for Laxmi Garments, a premium clothing shop offering traditional and western wear for men, women, and kids. This project is built with HTML, CSS, and JavaScript, and is ready for deployment on GitHub Pages or any static hosting service.
 
-## 🛍️ Features
+## 🛍️ Features:
 - Modern, mobile-friendly UI
 - Product categories: Traditional, Men, Women, Kids
 - Product gallery with images
