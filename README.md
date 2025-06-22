@@ -71,7 +71,7 @@ A sleek, responsive e-commerce website built for **Laxmi Garments**, a premium c
 
 * 🛒 **Shop Owner:** Amit Kumar Sah
 * 💻 **Developer:** [Ankit Kumar](https://ankit-kumarz.github.io/Ankit-s-Portfolio/)
-* 📱 **WhatsApp:** [+91-6201563011](https://wa.me/916201563011)
+* 📱 **WhatsApp:** [+91-6201563011](https://wa.me/916201563011) 
 
 ---
 
